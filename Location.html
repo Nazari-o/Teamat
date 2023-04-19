@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="CSS/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <title>TeaMat</title>
+</head>
+<body>
+  <header class="header"
+    data-aos="fade-down" 
+    data-aos-duration="1400">
+    
+    <nav class="navbar container">
+      <a href="#"><img class="logo" src="images/icons/logo.svg" alt="TeaMat"></a>
+
+      <ul class="link-box" id="myLinks">
+        <img class="close-menu" src="images/icons/close.svg" alt="Zavřít">
+        <li class="link">
+          <a href="Domov.html">Domov</a>
+        </li>
+        <li class="link">
+          <a href="Price.html">Ceník</a>
+        </li>
+        <li class="link active-link">
+          <a href="#">Lokace</a>
+        </li>
+        <li class="link contact-link">
+          <a href="#contact__area">Kontakt</a>
+        </li>
+      </ul>
+
+      <img class="burger-menu" src="images/icons/menu.svg" alt="Menu">
+    </nav>
+  </header>
+
+  <section class="location__section">
+    <h3 class="tea__section-header">Kde Nás najdete?</h3>
+    <h5 class="tea__section-subheading">
+      <hr class="box-line">
+      Vždy po ruce
+      <hr class="box-line">
+    </h5>
+
+    <img class="location-map" src="images/location-map.jpg" alt="Mapa Lokace">
+
+    <div class="location__box">
+      <div class="location__box-item">
+        <img src="images/icons/location.png" alt="" class="location-icon">
+        <div class="location__box-name">Vysoká škola Ekonomická v Praze</div>
+        <div class="location__box-time">Po-Pá  6-20 hod.</div>
+        <div class="location__box-place">nám. Winstona Churchilla 1938/4, 120 00 Praha 3-Žižkov</div>
+        <img src="images/Location-1.jpg" alt="Lokace 1" class="location__box-image">
+      </div>
+      <div class="location__box-item">
+        <img src="images/icons/location.png" alt="" class="location-icon">
+        <div class="location__box-name">Vysoká škola Ekonomická v Praze</div>
+        <div class="location__box-time">Po-Ne  6-22 hod.</div>
+        <div class="location__box-place">Ekonomická 957, 148 00
+          Praha-Kunratice</div>
+        <img src="images/Location-2.jpg" alt="Lokace 1" class="location__box-image">
+      </div>
+      <div class="location__box-item">
+        <img src="images/icons/location.png" alt="" class="location-icon">
+        <div class="location__box-name">Vysoká škola Ekonomická v Praze</div>
+        <div class="location__box-time">Po-Pá  6-20 hod.</div>
+        <div class="location__box-place">nám. Winstona Churchilla 1938/4, 120 00 Praha 3-Žižkov</div>
+        <img src="images/Location-3.jpg" alt="Lokace 1" class="location__box-image">
+      </div>
+    </div>
+  </section>
+
+
+
+  <img class="bg-image3" src="images/BG-3.jpg" alt="Obrázek"
+    data-aos="fade-in" 
+    data-aos-delay="600" 
+    data-aos-duration="1400" 
+    data-aos-easing="ease-in">
+  <footer 
+    class="footer container"
+    id="contact__area"
+    data-aos="fade-up" 
+    data-aos-delay="400"
+    data-aos-easing="ease-in"
+    data-aos-duration="1000">
+    
+    <div class="footer__header">
+      <h3 class="secondary__title">
+          Kontakt
+      </h3>
+      <hr class="main__content-line">
+  </div>
+
+  <div class="footer__section">
+      <div class="footer__item">
+          <h5 class="footer__item-heading">Fakturační adresa</h5>
+          <p class="footer__item-text">
+              Teamat, s.r.o. <br>
+              Vodičková 24/1, Václavské náměstí <br>
+              110 00 Praha <br>
+              <br>
+              IČ: 38990958 <br>
+              DIČ: CZ38990958 <br>
+          </p>
+      </div>
+
+      <div class="footer__item">
+          <div class="footer-phone">
+              <h5 class="footer__item-heading">Telefon</h5>
+              <a class="footer__item-text" href="tel:+">+420 898 909 080</a>
+          </div>
+          <div class="footer-email">
+              <h5 class="footer__item-heading">Email</h5>
+              <a class="footer__item-text" href="mailto:">teamat@gmail.com</a>
+          </div>
+      </div>
+
+      <div class="footer__item">
+          <div class="contact__section">
+              <form class="contact__form">
+
+                  <input type="text" name="_honey" style="display:none">
+                  <input type="hidden" name="_captcha" value="false">
+                  <input type="hidden" name="_next">
+
+                  <div class="contact__info">
+                      <input type="text" name="name" placeholder="Jméno" required>
+                      <input type="email" name="email" placeholder="E-mail" required>
+                  </div>
+
+                  <textarea rows="5" cols="30" type="text" name="message" placeholder="Zrpráva" required></textarea>
+                  <button class="send-btn" type="submit">Odeslat</button>
+              </form>
+          </div>
+     
+      </div>
+  </div>
+
+  <p class="copyrights">COPYRIGHT (C) teamat S.R.O. 2023</p>
+
+  </footer>
+  
+  <script src="/script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
