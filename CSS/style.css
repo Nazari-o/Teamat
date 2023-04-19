@@ -6,6 +6,7 @@
   list-style: none;
   text-decoration: none;
   scroll-behavior: smooth;
+  overflow-x: hidden !important;
 }
 
 :root {
@@ -22,7 +23,6 @@ body {
   overflow-x: hidden;
   width: 100%;
   min-height: 100vh;
-  overflow-x: hidden !important;
 }
 
 .container {
