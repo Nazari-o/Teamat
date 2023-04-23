@@ -109,6 +109,7 @@ body {
 }
 .header .navbar .logo {
   transition: all ease 0.4s;
+  width: 200px;
 }
 @media (max-width: 1140px) {
   .header .navbar .logo {
@@ -605,22 +606,15 @@ body {
   align-items: baseline;
   width: 100%;
 }
+.tea__cup img {
+  max-width: 260px;
+}
 @media (max-width: 480px) {
   .tea__cup {
     flex-wrap: wrap;
   }
   .tea__cup .tea__cup:nth-child(1) {
     align-self: left;
-  }
-}
-
-.bg-image2 {
-  margin: 140px 0;
-  width: 100%;
-}
-@media (max-width: 480px) {
-  .bg-image2 {
-    margin: 80px 0;
   }
 }
 
