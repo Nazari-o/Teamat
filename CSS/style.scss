@@ -159,6 +159,7 @@ body {
 
       @include tablet {
         display: block;
+        z-index: 100;
       }
 
       @include smallTablet {

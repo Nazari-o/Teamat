@@ -154,6 +154,7 @@ body {
 @media (max-width: 900px) {
   .header .navbar .burger-menu {
     display: block;
+    z-index: 100;
   }
 }
 @media (max-width: 740px) {
@@ -288,7 +289,7 @@ body {
 .main__content {
   padding: 90px 0 430px;
   width: 100%;
-  background-image: url("../images/BG.jpg") !important;
+  background-image: url("../images/BG.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
