@@ -7,8 +7,8 @@ closeMenu.addEventListener('click',close);
 
 function show(){
   // mainMenu.style.display = 'block';
-  mainMenu.style.left = '0';
-  mainMenu.style.right = '0';
+  mainMenu.style.left = '0%';
+  mainMenu.style.right = '0%';
 };
 function close(){
   // mainMenu.style.display = 'none';

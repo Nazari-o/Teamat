@@ -154,7 +154,6 @@ body {
 @media (max-width: 900px) {
   .header .navbar .burger-menu {
     display: block;
-    z-index: 100;
   }
 }
 @media (max-width: 740px) {
